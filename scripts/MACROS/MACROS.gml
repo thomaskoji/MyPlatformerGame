@@ -1,5 +1,6 @@
 #macro NULLVALUE -99999
 #macro g global
+#macro ROOM_START rm_main
 
 	//Velocity
 #macro XAXIS 0

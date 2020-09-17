@@ -5,4 +5,6 @@ event_inherited();
 instance_create_depth(0,0,0, obj_inputController);
 instance_create_depth(0,0,0, obj_displayController);
 
-room_goto(rm_main);
+layer_set_visible("Collision", false);
+
+room_goto(ROOM_START);
